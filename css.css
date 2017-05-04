@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif
+}
+body,
+html {
+  height: 100%
+}
+  .mobile::-webkit-scrollbar {
+    display: none;
+  }
+  .container {
+    display: flex;
+    background: #fff;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .case-mobile {
+    flex-basis: 320px;
+    height: 568px;
+    background: #fff;
+    padding: 40px 10px 80px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+  }
+  .mobile {
+    /*flex-basis: 414px; iphone 6 */
+    /*height: 667px;iphone 6 */
+    flex-basis: 320px;
+    height: 568px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  .botao {
+    background: rgba(0, 0, 0, 0.1);
+    transform: translateY(20px);
+    margin: 0 auto;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, .1);
+    opacity: .9
+  }
+
+.conteudo {
+  height: 100%;
+  position: relative;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+  background: #fff;
+}
+.topo {
+  height: 50px;
+  background: #fff;
+  border-bottom: 1px solid #eaeaea;
+  font-size: 14px;
+}
+.centro {
+  height: calc(100% - 120px);
+  padding: 10px;
+ overflow-x:hidden;
+}
+.centro p {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: justify;
+  line-height: 20px
+}
+.centro h1 {
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: justify;
+  margin-bottom: 10px
+}
+.centro::-webkit-scrollbar {
+    display: none;
+  }
+.menu {
+  height: 50px;
+  background: whitesmoke;
+  border-top: 1px solid #eaeaea;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.menu-fix {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+.topo-centraliza {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: whitesmoke
+}
+.full-height {
+  height: 100%:
+}
+.center {
+  text-align: center;
+}
+.margin {
+  margin: 5px;
+}
+.lado {
+  flex-basis: 60px;
+}
+.right {
+  text-align: right;
+}
+.icon {
+  opacity: .5;
+  cursor: pointer;
+  transition: .3s
+}
+.icon:hover {
+  opacity: 1
+}

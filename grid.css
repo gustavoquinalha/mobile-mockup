@@ -1,6 +1,5 @@
 .row {
   display: flex;
-
 }
 .space-between {
   justify-content: space-between;
@@ -8,14 +7,21 @@
 .space-around {
   justify-content: space-around;
 }
-
 .align-baseline {
   align-items: baseline;
 }
 .align-stretch {
   align-items: stretch;
 }
-
+.column {
+  flex-direction: column;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.nowrap {
+  flex-wrap: nowrap;
+}
 .align-top {
   align-items: flex-start;
 }
@@ -34,12 +40,10 @@
 .justify-right {
   justify-content: flex-end;
 }
-
 .align-center-center {
   justify-content: center;
   align-items: center;
 }
-
 .col {
   flex-grow: 1;
 }

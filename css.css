@@ -135,7 +135,8 @@ html {
 }
 .code {
   flex-basis: 500px;
-  font-size: 14px
+  font-size: 14px;
+  height: 400px;
 }
 pre {
   margin: 10px;

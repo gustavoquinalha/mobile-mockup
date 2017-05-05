@@ -13,7 +13,7 @@ html {
   .container2 {
     display: flex;
     background: #fff;
-    height: 100%;
+    min-height: 100%;
     justify-content: center;
     align-items: center;
     background: #ccc;
@@ -137,6 +137,7 @@ html {
   flex-basis: 500px;
   font-size: 14px;
   height: 400px;
+  padding: 10px
 }
 pre {
   margin: 10px;

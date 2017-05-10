@@ -101,15 +101,15 @@
 <span style="color: #f92672">&lt;/div&gt;</span>
 
 <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row&quot;</span><span style="color: #f92672">&gt;</span>
-  <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col col-20&quot;</span><span style="color: #f92672">&gt;</span>
-  .col col-20
-  <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col col-20
+    <span style="color: #f92672">&lt;/div&gt;</span>
 <span style="color: #f92672">&lt;/div&gt;</span>
 
 <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row&quot;</span><span style="color: #f92672">&gt;</span>
-  <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
-  .col-20
-  <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col-20
+    <span style="color: #f92672">&lt;/div&gt;</span>
 <span style="color: #f92672">&lt;/div&gt;</span>
 
 </pre></div>
@@ -125,10 +125,14 @@
 
           <div class="row-demo row-stretch">
             <div class="col-10 col-demo" style="height: 40px;">
+              <div class="row full-height row-center">
                 .col-10
+              </div>
             </div>
             <div class="col col-demo">
+              <div class="row full-height row-center">
                 .col
+              </div>
             </div>
           </div>
 
@@ -252,7 +256,7 @@
     </div>
 
     <div class="code">
-<div style="background: #272822; overflow:auto;width:auto;;padding:.2em .6em"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row-stretch&quot;</span><span style="color: #f92672">&gt;</span>
+      <div style="background: #272822; overflow:auto;width:auto;;padding:.2em .6em"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row-stretch&quot;</span><span style="color: #f92672">&gt;</span>
     <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-10&quot;</span><span style="color: #f92672">&gt;</span>
     .col-10
     <span style="color: #f92672">&lt;/div&gt;</span>
@@ -457,200 +461,500 @@
 
   <hr>
 
-  <div class="container2">
-    <div class="case-mobile">
-      <div class="mobile">
-        <div class="conteudo">
 
-          <div class="row-between row-demo">
-            <div class="col-20">
-              <div class="col-demo">
-                .col-20
+    <div class="container2">
+      <div class="case-mobile">
+        <div class="mobile">
+          <div class="conteudo">
+
+            <div class="row row-demo">
+              <div class="col col-20">
+                <div class="col-demo">
+                  .col .col-20
+                </div>
+              </div>
+              <div class="col col-20">
+                <div class="col-demo">
+                  .col .col-20
+                </div>
               </div>
             </div>
 
-            <div class="col-20">
-              <div class="col-demo">
-                .col-20
+            <div class="row-between row-demo">
+              <div class="col-20">
+                <div class="col-demo">
+                  .col-20
+                </div>
+              </div>
+              <div class="col-20">
+                <div class="col-demo">
+                  .col-20
+                </div>
               </div>
             </div>
+
+            <div class="row-around row-demo">
+              <div class="col-20">
+                <div class="col-demo">
+                  .col-20
+                </div>
+              </div>
+              <div class="col-20">
+                <div class="col-demo">
+                  .col-20
+                </div>
+              </div>
+            </div>
+
+            <div class="row-demo row-stretch">
+              <div class="col col-demo" style="height: 60px">
+                <div class="row full-height row-center">
+                  .col
+                </div>
+              </div>
+              <div class="col col-demo">
+                <div class="row full-height row-center">
+                  .col
+                </div>
+              </div>
+            </div>
+
+            <div class="row-demo row-baseline">
+              <div class="col-20 col-demo" >
+                  .col-20<br />teste
+              </div>
+              <div class="col-20 col-demo">
+                  .col-20
+              </div>
+            </div>
+
           </div>
-
-          <div class="row-between row-demo">
-            <div class="col-20">
-              <div class="col-demo">
-                col-20
-              </div>
-            </div>
-            <div class="col-20">
-              <div class="col-demo">
-                col-20
-              </div>
-            </div>
-            <div class="col-20">
-              <div class="col-demo">
-                col-20
-              </div>
-            </div>
-          </div>
-
-          <div class="row-around row-demo">
-            <div class="col-20">
-              <div class="col-demo">
-                col-20
-              </div>
-            </div>
-            <div class="col-20">
-              <div class="col-demo">
-                col-20
-              </div>
-            </div>
-            <div class="col-20">
-              <div class="col-demo">
-                col-20
-              </div>
-            </div>
-          </div>
-
-          <div class="row-around row-demo">
-            <div class="col-20">
-              <div class="col-demo">
-                col-20
-              </div>
-            </div>
-            <div class="col-20">
-              <div class="col-demo">
-                col-20
-              </div>
-            </div>
-          </div>
-
-
+        </div>
+        <div class="botao">
         </div>
       </div>
-      <div class="botao">
-      </div>
-    </div>
 
-    <div class="code">
-<div style="background: #272822; overflow:auto;width:auto;;padding:.2em .6em"><pre style="margin: 0; line-height: 125%">
-<span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row-between&quot;</span><span style="color: #f92672">&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
-    .col-20
-    <span style="color: #f92672">&lt;/div&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
-    .col-20
-    <span style="color: #f92672">&lt;/div&gt;</span>
-<span style="color: #f92672">&lt;/div&gt;</span>
-
-<span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row-between&quot;</span><span style="color: #f92672">&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
-    .col-20
-    <span style="color: #f92672">&lt;/div&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
-    .col-20
-    <span style="color: #f92672">&lt;/div&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
-    .col-20
-    <span style="color: #f92672">&lt;/div&gt;</span>
-<span style="color: #f92672">&lt;/div&gt;</span>
-
-<span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row-around&quot;</span><span style="color: #f92672">&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
-    .col-20
-    <span style="color: #f92672">&lt;/div&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
-    .col-20
-    <span style="color: #f92672">&lt;/div&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
-    .col-20
-    <span style="color: #f92672">&lt;/div&gt;</span>
-<span style="color: #f92672">&lt;/div&gt;</span>
-
-<span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row-around&quot;</span><span style="color: #f92672">&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
-    .col-20
-    <span style="color: #f92672">&lt;/div&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
-    .col-20
-    <span style="color: #f92672">&lt;/div&gt;</span>
-<span style="color: #f92672">&lt;/div&gt;</span></pre></div>
-
-    </div>
-  </div>
-
-  <hr>
-
-  <div class="container2">
-    <div class="case-mobile">
-      <div class="mobile">
-        <div class="conteudo">
-
-          <div class="row row-demo">
-            <div class="col col-20">
-              <div class="col-demo">
-                .col .col-20
-              </div>
-            </div>
-
-            <div class="col col-20">
-              <div class="col-demo">
-                .col .col-20
-              </div>
-            </div>
-          </div>
-
-          <div class="row-between row-demo">
-            <div class="col-20">
-              <div class="col-demo">
-                .col-20
-              </div>
-            </div>
-
-            <div class="col-20">
-              <div class="col-demo">
-                .col-20
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <div class="botao">
-      </div>
-    </div>
-
-    <div class="code">
+      <div class="code">
 <div style="background: #272822; overflow:auto;width:auto;;padding:.2em .6em"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row&quot;</span><span style="color: #f92672">&gt;</span>
-  <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col col-20&quot;</span><span style="color: #f92672">&gt;</span>
-  .col col-20
-  <span style="color: #f92672">&lt;/div&gt;</span>
-  <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col col-20&quot;</span><span style="color: #f92672">&gt;</span>
-  .col col-20
-  <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col col-20
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col col-20
+    <span style="color: #f92672">&lt;/div&gt;</span>
 <span style="color: #f92672">&lt;/div&gt;</span>
 
 <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row-between&quot;</span><span style="color: #f92672">&gt;</span>
-  <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
-  .col-20
-  <span style="color: #f92672">&lt;/div&gt;</span>
-  <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
-  .col-20
-  <span style="color: #f92672">&lt;/div&gt;</span>
-<span style="color: #f92672">&lt;/div&gt;</span></pre></div>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col-20
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col-20
+    <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
+
+<span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row-around&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col-20
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col-20
+    <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
+
+<span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row-stretch&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col
+    <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
+
+<span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row-baseline&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col
+    <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
+</pre></div>
 
 
+      </div>
     </div>
-  </div>
 
-  <hr>
+    <hr>
 
   <div class="container2">
     <div class="case-mobile">
       <div class="mobile">
         <div class="conteudo">
 
-          <div class="row-around top row-align-center">
+          <div class="row-between row-demo">
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+          </div>
+
+          <div class="row-between row-demo">
+            <div class="col-20">
+              <div class="col-demo">
+                col-20
+              </div>
+            </div>
+            <div class="col-20">
+              <div class="col-demo">
+                col-20
+              </div>
+            </div>
+            <div class="col-20">
+              <div class="col-demo">
+                col-20
+              </div>
+            </div>
+          </div>
+
+          <div class="row-around row-demo">
+            <div class="col-20">
+              <div class="col-demo">
+                col-20
+              </div>
+            </div>
+            <div class="col-20">
+              <div class="col-demo">
+                col-20
+              </div>
+            </div>
+            <div class="col-20">
+              <div class="col-demo">
+                col-20
+              </div>
+            </div>
+          </div>
+
+          <div class="row-around row-demo">
+            <div class="col-20">
+              <div class="col-demo">
+                col-20
+              </div>
+            </div>
+            <div class="col-20">
+              <div class="col-demo">
+                col-20
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="botao">
+      </div>
+    </div>
+
+    <div class="code">
+      <div style="background: #272822; overflow:auto;width:auto;;padding:.2em .6em"><pre style="margin: 0; line-height: 125%">
+<span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row-between&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col-20
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col-20
+    <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
+
+<span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row-between&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col-20
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col-20
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col-20
+    <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
+
+<span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row-around&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col-20
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col-20
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col-20
+    <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
+
+<span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row-around&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col-20
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+    .col-20
+    <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span></pre></div>
+
+    </div>
+  </div>
+
+  <hr>
+
+
+
+  <div class="container2">
+    <div class="case-mobile">
+      <div class="mobile">
+        <div class="conteudo">
+          <div class="row row-demo box row-center">
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+          </div>
+          <div class="row row-demo box vertical-align-top horizontal-align-left">
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+          </div>
+
+          <div class="row row-demo box vertical-align-center horizontal-align-left">
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+          </div>
+          <div class="row row-demo box vertical-align-bottom horizontal-align-left">
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+          </div>
+
+          <div class="row row-demo box vertical-align-top horizontal-align-center">
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+          </div>
+          <div class="row row-demo box vertical-align-center horizontal-align-center">
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+          </div>
+          <div class="row row-demo box vertical-align-bottom horizontal-align-center">
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+          </div>
+
+          <div class="row row-demo box vertical-align-top horizontal-align-right">
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+          </div>
+          <div class="row row-demo box vertical-align-center horizontal-align-right">
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+          </div>
+          <div class="row row-demo box vertical-align-bottom horizontal-align-right">
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+            <div class="col-20">
+              <div class="col-demo">
+                .col-20
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="botao">
+      </div>
+    </div>
+
+    <div class="code">
+      <div style="background: #272822; overflow:auto;width:auto;;padding:.2em .6em"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row row-center&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+      .col-20
+      <span style="color: #f92672">&lt;/div&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+      .col-20
+      <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
+
+<span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row vertical-align-top horizontal-align-left&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+      .col-20
+      <span style="color: #f92672">&lt;/div&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+      .col-20
+      <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
+
+<span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row vertical-align-center horizontal-align-left&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+      .col-20
+      <span style="color: #f92672">&lt;/div&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+      .col-20
+      <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
+
+<span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row vertical-align-bottom horizontal-align-left&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+      .col-20
+      <span style="color: #f92672">&lt;/div&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+      .col-20
+      <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
+
+<span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row vertical-align-top horizontal-align-center&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+      .col-20
+      <span style="color: #f92672">&lt;/div&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+      .col-20
+      <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
+
+<span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row vertical-align-center horizontal-align-center&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+      .col-20
+      <span style="color: #f92672">&lt;/div&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+      .col-20
+      <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
+
+<span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row vertical-align-bottom horizontal-align-center&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+      .col-20
+      <span style="color: #f92672">&lt;/div&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+      .col-20
+      <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
+
+<span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row vertical-align-top horizontal-align-right&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+      .col-20
+      <span style="color: #f92672">&lt;/div&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+      .col-20
+      <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
+
+<span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row vertical-align-center horizontal-align-right&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+      .col-20
+      <span style="color: #f92672">&lt;/div&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+      .col-20
+      <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
+
+<span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row vertical-align-bottom horizontal-align-right&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+      .col-20
+      <span style="color: #f92672">&lt;/div&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20&quot;</span><span style="color: #f92672">&gt;</span>
+      .col-20
+      <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
+  </pre></div>
+    </div>
+  </div>
+
+  <hr>
+
+
+  <div class="container2">
+    <div class="case-mobile">
+      <div class="mobile">
+        <div class="conteudo">
+
+          <div class="row-around top vertical-align-center">
             <div class="col-10 top-item">
               <img src="img/menu.svg" width="20" alt="">
             </div>
@@ -665,7 +969,7 @@
             </div>
           </div>
 
-          <div class="row card row-align-bottom" style="background: url(img/tombraider1.jpg)">
+          <div class="row card vertical-align-bottom" style="background: url(img/tombraider1.jpg)">
             <div class="col">
               <div class="row-around">
                 <div class="col-20 item-info-card">
@@ -752,7 +1056,7 @@
     </div>
     <div class="code">
       <!-- HTML generated using hilite.me -->
-      <div style="background: #272822; overflow:auto;width:auto;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row-around top row-align-center&quot;</span><span style="color: #f92672">&gt;</span>
+      <div style="background: #272822; overflow:auto;width:auto;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row-around top vertical-align-center&quot;</span><span style="color: #f92672">&gt;</span>
     <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-10 top-item&quot;</span><span style="color: #f92672">&gt;</span>
       <span style="color: #f92672">&lt;img</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;img/menu.svg&quot;</span> <span style="color: #a6e22e">width=</span><span style="color: #e6db74">&quot;20&quot;</span> <span style="color: #a6e22e">alt=</span><span style="color: #e6db74">&quot;&quot;</span><span style="color: #f92672">&gt;</span>
     <span style="color: #f92672">&lt;/div&gt;</span>
@@ -767,7 +1071,7 @@
     <span style="color: #f92672">&lt;/div&gt;</span>
   <span style="color: #f92672">&lt;/div&gt;</span>
 
-  <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row card row-align-bottom&quot;</span> <span style="color: #a6e22e">style=</span><span style="color: #e6db74">&quot;background: url(img/tombraider1.jpg)&quot;</span><span style="color: #f92672">&gt;</span>
+  <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row card vertical-align-bottom&quot;</span> <span style="color: #a6e22e">style=</span><span style="color: #e6db74">&quot;background: url(img/tombraider1.jpg)&quot;</span><span style="color: #f92672">&gt;</span>
     <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col&quot;</span><span style="color: #f92672">&gt;</span>
       <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;row-around&quot;</span><span style="color: #f92672">&gt;</span>
         <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;col-20 item-info-card&quot;</span><span style="color: #f92672">&gt;</span>

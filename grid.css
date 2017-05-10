@@ -47,32 +47,32 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.row-align-top {
+.vertical-align-top {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
 }
-.row-align-center {
+.vertical-align-center {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
-.row-align-bottom {
+.vertical-align-bottom {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
 }
-.justify-left {
+.horizontal-align-left {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
-.justify-center {
+.horizontal-align-center {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
-.justify-right {
+.horizontal-align-right {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
